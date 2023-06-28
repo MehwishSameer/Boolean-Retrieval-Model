@@ -16,18 +16,26 @@ queries.
 positions and extracting the required k-positioned documents
 ## Limitations:
 • It can run Boolean queries with unlimited "and or not"
+
 • It can run with both upper and lower case "and or not"
+
 • It can run complex queries with brackets. For eg:
 ( psl or t20 ) and ( cricket or rohit or india ) and ( not ( impossible
 or pakistan ) )
 ## Usage
 • Boolean Queries: spin AND feast
+
 • Phrasal Queries: t20 world
+
 • Proximity Queries: replacement players /9
+
 ## Requirements
 Python 3.6 or later
+
 pip (Python package installer)
 ## Installation
 • Download and extract Project
+
 • Install all the required Python packages
+
 • Run ir_k201895_assignment_01.py file
